@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'dubai-trip-v12';
+const CACHE_NAME = 'dubai-trip-v11';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -65,4 +65,3 @@ self.addEventListener('fetch', (event) => {
     })
   );
 });
-

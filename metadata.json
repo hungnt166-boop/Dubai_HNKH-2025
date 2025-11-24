@@ -1,0 +1,7 @@
+{
+  "name": "Dubai Voyage Hub",
+  "description": "Cổng thông tin chính thức cho chuyến đi Dubai dành cho đại lý và đối tác.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

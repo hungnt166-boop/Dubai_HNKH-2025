@@ -4,6 +4,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     
     <!-- SEO & Social Sharing (Zalo, Facebook, Message) -->
     <title>Hành trình Dubai 2025 | UAE - Thống Nhất</title>
@@ -15,7 +18,7 @@
     <meta property="og:title" content="Hành trình kết nối UAE - Thống Nhất" />
     <meta property="og:description" content="Lịch trình chi tiết, lưu ý và thông tin chuyến đi Dubai 2025." />
     <!-- QUAN TRỌNG: Đường dẫn ảnh phải là tuyệt đối (có https) để Zalo nhận diện -->
-    <meta property="og:image" content="https://hungnt166-boop.github.io/Dubai_HNKH-2025/social-share.jpg" />
+    <meta property="og:image" content="https://hungnt166-boop.github.io/Dubai_HNKH-2025/social-share.jpg?v=3" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -23,12 +26,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Dubai Trip" />
-    <link rel="apple-touch-icon" href="/Dubai_HNKH-2025/app-icon.png" />
+    <link rel="apple-touch-icon" href="./app-icon.png" />
 
     <!-- Android / Chrome PWA -->
     <meta name="theme-color" content="#0f172a" />
-    <link rel="manifest" href="/Dubai_HNKH-2025/manifest.json" />
-    <link rel="icon" type="image/png" href="/Dubai_HNKH-2025/app-icon.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" type="image/png" href="./app-icon.png" />
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -53,7 +56,7 @@
       }
     </style>
 
-  <script type="importmap">
+<script type="importmap">
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.2.0",
@@ -66,8 +69,8 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/Dubai_HNKH-2025/assets/index-dNczMhzk.js"></script>
-  <link rel="stylesheet" crossorigin href="/Dubai_HNKH-2025/assets/index-DZrm_V1x.css">
+  <script type="module" crossorigin src="/Dubai_HNKH-2025/assets/index-BNORT3Ub.js"></script>
+  <link rel="stylesheet" crossorigin href="/Dubai_HNKH-2025/assets/index-Dmmr1PVV.css">
 </head>
   <body>
     <div id="root"></div>
@@ -77,12 +80,12 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/Dubai_HNKH-2025/sw.js')
+          navigator.serviceWorker.register('./sw.js')
             .then(registration => {
-              console.log('SW registered: ', registration);
+              console.log('SW registered with scope:', registration.scope);
             })
             .catch(registrationError => {
-              console.log('SW registration failed: ', registrationError);
+              console.log('SW registration failed:', registrationError);
             });
         });
       }

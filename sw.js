@@ -1,10 +1,10 @@
 
-const CACHE_NAME = 'dubai-trip-v1';
+const CACHE_NAME = 'dubai-trip-v3';
 const ASSETS_TO_CACHE = [
-  '/Dubai_HNKH-2025/',
-  '/Dubai_HNKH-2025/index.html',
-  '/Dubai_HNKH-2025/manifest.json',
-  '/Dubai_HNKH-2025/app-icon.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './app-icon.png'
 ];
 
 // Cài đặt Service Worker và lưu cache
@@ -24,6 +24,7 @@ self.addEventListener('activate', (event) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
           if (cacheName !== CACHE_NAME) {
+            console.log('Deleting old cache:', cacheName);
             return caches.delete(cacheName);
           }
         })

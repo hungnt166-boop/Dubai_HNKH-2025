@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'dubai-trip-v17';
+const CACHE_NAME = 'dubai-trip-v18';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

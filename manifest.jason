@@ -1,0 +1,21 @@
+{
+  "name": "Hành trình kết nối UAE - Thống Nhất",
+  "short_name": "Dubai Trip 2025",
+  "start_url": "/Dubai_HNKH-2025/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/Dubai_HNKH-2025/app-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Dubai_HNKH-2025/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
